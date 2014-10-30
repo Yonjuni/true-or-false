@@ -1,19 +1,26 @@
 <div>
 
 
-    <h1>{{ questionData.question }}</h1>
+    <div class="picture-side">
 
-    <img src="{{ questionData.image }}" style="float: left;" />
+        <img src="{{ questionData.image }}" />
 
-    <p style="float: left;"> {{ questionData.person }} </p>
+        <p> {{ questionData.person }} </p>
 
-    <div style="clear: both"></div>
+    </div>
 
-    <div style="float: right;">
 
-        <button ng-click="clickButton(true)">True</button>
-        <button ng-click="clickButton(false)">False</button>
-        <button ng-click="dontKnow()">Don't know this person</button>
+    <div class="question-side">
+
+        <h1>{{ questionData.question }}</h1>
+
+        <div>
+
+            <button ng-click="clickButton(true)">True</button>
+            <button ng-click="clickButton(false)">False</button>
+            <button ng-click="dontKnow()">Don't know this person</button>
+
+        </div>
 
     </div>
 
