@@ -1,6 +1,6 @@
 'use strict';
 
-selectionTaskApp.controller("thanksCtrl", function () {
+trueOrFalseApp.controller("thanksCtrl", function () {
 
 
 

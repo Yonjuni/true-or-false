@@ -1,9 +1,13 @@
 <div>
 
 
-    <h1>{{ displayedQuestion }}</h1>
+    <h1>{{ questionData.question }}</h1>
 
-    <img src="{{ imageUrl }}" style="float: left;" />
+    <img src="{{ questionData.image }}" style="float: left;" />
+
+    <p style="float: left;"> {{ questionData.person }} </p>
+
+    <div style="clear: both"></div>
 
     <div style="float: right;">
 
